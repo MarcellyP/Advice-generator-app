@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body {
+    background:  hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: hsl(217, 19%, 24%);
+    max-width: 550px;
+    margin: auto 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.advice-id{
+    color:   hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+.advice-text{
+    margin: 20px auto 0; 
+    font-size: 28px;
+    width: 100%;
+    color: hsl(193, 38%, 86%);
+}
+.play{
+    margin: 20px 0 30px;
+    background-size: 100% 100%;
+    width: 100%;
+}
+#go{
+    background-color:  hsl(150, 100%, 66%);
+    border-radius: 50%;
+    padding: 15px 16px 12px;
+    border: 0;
+    cursor: pointer;
+    margin: 0 auto -50px;
+}
+
+#go:hover {
+    box-shadow: 0 0 40px  hsl(150, 100%, 66%);
+}
+
+@media (max-width: 412px) {
+    main {
+        margin-left: 0%;
+        margin-right: 0%;
+        max-width: 350px;
+    }
+}
